@@ -15,7 +15,7 @@ if (isset($_GET['token'])){
     $obj = new stdClass();
     $obj->err = 'No Token';
     header('Content-type:application/json');
-    echo json_encode($obj);
+    echo json_encode($obj); 
     exit;
 }
 
